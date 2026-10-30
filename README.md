@@ -9,10 +9,10 @@
 </p>
 
 <p align="center">
-  <a href="https://lumina-tutor-agent.streamlit.app/">
+  <a href="https://lumina-ai-tutor-b5229.containers.snapdeploy.app/app">
     <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-Try_Lumina_Tutor-7C3AED?style=for-the-badge" alt="Live Demo">
   </a>
-  <a href="https://github.com/AfzalManihar/lumina-tutor-Agent">
+  <a href="https://github.com/AfzalManihar/lumina-ai-tutor">
     <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub">
   </a>
 </p>
@@ -73,7 +73,7 @@ Feature availability depends on the application component, configuration, and co
 
 ## 🖥️ Live Demo
 
-**[Launch Lumina Tutor](https://lumina-tutor-agent.streamlit.app/)**
+**[Launch Lumina Tutor](https://lumina-ai-tutor-b5229.containers.snapdeploy.app/app)**
 
 The hosted Streamlit application provides a demonstration mode with a built-in sample lesson:
 
@@ -85,7 +85,7 @@ The complete LangGraph engine runs separately in Google Colab and can connect th
 
 ### Try It in 60 Seconds
 
-1. Open the [live demo](https://lumina-tutor-agent.streamlit.app/).
+1. Open the [live demo](https://lumina-ai-tutor-b5229.containers.snapdeploy.app/app).
 2. Find **Presenter controls** in the sidebar.
 3. Select **Presenter: one weak spot** during the quick check.
 4. Repeatedly select **Presenter: wrong answer**.
@@ -585,7 +585,7 @@ A deployment blueprint does not mean the application has already been deployed o
 
 The live demo is available at:
 
-**https://lumina-tutor-agent.streamlit.app/**
+**https://lumina-ai-tutor-b5229.containers.snapdeploy.app/app**
 
 ## 📁 Project Structure
 
@@ -653,7 +653,7 @@ Interested in Agentic AI, Generative AI, Data Science, Machine Learning, and bui
 - 🌐 **Portfolio:** https://afzalmanihar.github.io
 - 💻 **GitHub:** https://github.com/AfzalManihar
 - 🔗 **LinkedIn:** https://www.linkedin.com/in/afzal-manihar-bb0183308/
-- 🚀 **Live Demo:** https://lumina-tutor-agent.streamlit.app/
+- 🚀 **Live Demo:** https://lumina-ai-tutor-b5229.containers.snapdeploy.app/app
 
 ## 📄 License
 
