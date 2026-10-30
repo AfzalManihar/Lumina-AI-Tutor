@@ -1,0 +1,20 @@
+# Optional Render Blueprint (New > Blueprint). Uses the same Dockerfile as every other host.
+# Secrets are never stored here: `sync: false` makes Render ask for each value in its dashboard.
+services:
+  - type: web
+    name: lumina-ai-tutor
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - { key: APP_ENV, value: production }
+      - { key: VECTOR_STORE_PROVIDER, value: mongo }
+      - { key: EMBEDDING_PROVIDER, value: google }
+      - { key: APP_SECRET_KEY, generateValue: true }
+      - { key: MONGO_URI, sync: false }
+      - { key: GROQ_API_KEY, sync: false }
+      - { key: GOOGLE_API_KEY, sync: false }
+      - { key: CORS_ORIGINS, sync: false }   # https://<service>.onrender.com
+      - { key: RAZORPAY_KEY_ID, sync: false }
+      - { key: RAZORPAY_KEY_SECRET, sync: false }
+      - { key: RAZORPAY_WEBHOOK_SECRET, sync: false }

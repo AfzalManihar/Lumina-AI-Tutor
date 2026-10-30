@@ -1,0 +1,12 @@
+[project]
+name = "lumina-ai-tutor-backend"
+version = "1.0.0"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = ["live: requires live provider credentials (never run by default)"]
+filterwarnings = ["ignore::DeprecationWarning"]

@@ -1,0 +1,25 @@
+# secrets / env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+# node
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+# logs / local data / results
+*.log
+logs/
+evaluation/results/eval_*.json
+.DS_Store
+Thumbs.db

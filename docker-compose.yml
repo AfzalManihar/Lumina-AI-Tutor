@@ -1,0 +1,18 @@
+# Local one-command run (or any Docker host): MongoDB + the app on http://localhost:7860
+# Put your keys in a .env file next to this one (copy .env.example). Real secrets are never baked into the image.
+services:
+  mongo:
+    image: mongo:7
+    restart: unless-stopped
+    volumes: ["mongo-data:/data/db"]
+  app:
+    build: .
+    restart: unless-stopped
+    depends_on: [mongo]
+    ports: ["7860:7860"]
+    env_file: [.env]
+    environment:
+      MONGO_URI: mongodb://mongo:27017
+      CORS_ORIGINS: http://localhost:7860
+volumes:
+  mongo-data:
